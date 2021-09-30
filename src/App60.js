@@ -21,7 +21,7 @@ const App = () => {
       <center>
         count: {state.count}
         <button onClick={()=> dispatch({type: 'decrement'})}>-</button>
-        <button onClick={()=> dispatch({type: 'increment'})}>+</button>
+        <button onClick={()=> dispatch({type: 'increment'})}>-</button>
       </center>
     </div>
   )
